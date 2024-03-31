@@ -1,0 +1,3 @@
+# Selamat datang ke Website Beautiful Indonesia
+
+Beautiful Indonesia adalah website yang diharapkan dapat menjadi solusi untuk mempromosikan pariwisata dan ekonomi kreatif Indonesia secara lebih efektif dan efisien. Platform ini dapat membantu para pelaku industri kreatif untuk memasarkan produk dan jasanya, serta memberikan informasi dan edukasi tentang budaya, tradisi, dan keindahan alam Indonesia kepada masyarakat luas.
