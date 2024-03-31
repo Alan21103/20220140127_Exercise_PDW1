@@ -1,131 +1,131 @@
 /* Reset CSS */
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+  margin: 0; /* Mengatur margin ke 0 */
+  padding: 0; /* Mengatur padding ke 0 */
+  box-sizing: border-box; /* Mengatur box-sizing ke border-box untuk menghindari masalah layout */
 }
 
 body {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  line-height: 1.6;
-  background-color: #f9f9f9;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Mengatur font family untuk teks di body */
+  line-height: 1.6; /* Mengatur line-height untuk memperbaiki keterbacaan teks */
+  background-color: #f9f9f9; /* Memberi warna latar belakang */
 }
 
 .container {
-  max-width: 1100px;
-  margin: auto;
-  padding: 0 20px;
+  max-width: 1100px; /* Mengatur lebar maksimum kontainer */
+  margin: auto; /* Mengatur margin menjadi otomatis untuk menyatukan konten ke tengah */
+  padding: 0 20px; /* Mengatur padding horizontal */
 }
 
 header {
-  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../assets/bali.jpg') center/cover no-repeat;
-  color: #fff;
-  padding: 400px 0;
-  text-align: center;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../assets/bali.jpg') center/cover no-repeat; /* Memberi gambar latar belakang dengan efek gradien */
+  color: #fff; /* Mengatur warna teks */
+  padding: 400px 0; /* Mengatur padding atas dan bawah */
+  text-align: center; /* Mengatur penjajaran teks ke tengah */
 }
 
 header h1 {
-  font-size: 3rem;
-  margin-bottom: 5px;
+  font-size: 3rem; /* Mengatur ukuran font */
+  margin-bottom: 5px; /* Mengatur margin bawah */
 }
 
 header p {
-  font-size: 1.2rem;
+  font-size: 1.2rem; /* Mengatur ukuran font */
 }
 
 .intro {
-  background-color: #fff;
-  padding: 80px 0;
-  text-align: center;
+  background-color: #fff; /* Memberi warna latar belakang */
+  padding: 80px 0; /* Mengatur padding atas dan bawah */
+  text-align: center; /* Mengatur penjajaran teks ke tengah */
 }
 
 .intro h2 {
-  font-size: 2.5rem;
-  margin-bottom: 20px;
+  font-size: 2.5rem; /* Mengatur ukuran font */
+  margin-bottom: 20px; /* Mengatur margin bawah */
 }
 
 .intro p {
-  font-size: 1.1rem;
-  color: #555;
-  margin-bottom: 40px;
+  font-size: 1.1rem; /* Mengatur ukuran font */
+  color: #555; /* Mengatur warna teks */
+  margin-bottom: 40px; /* Mengatur margin bawah */
 }
 
 .intro img {
-  width: 100%;
-  border-radius: 8px;
-  margin-top: 20px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: 100%; /* Mengatur lebar gambar menjadi 100% */
+  border-radius: 8px; /* Memberi border radius */
+  margin-top: 20px; /* Mengatur margin atas */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Memberi efek bayangan */
 }
 
 .highlights {
-  background-color: #f9f9f9;
-  padding: 80px 0;
+  background-color: #f9f9f9; /* Memberi warna latar belakang */
+  padding: 80px 0; /* Mengatur padding atas dan bawah */
 }
 
 .highlights h2 {
-  font-size: 2.5rem;
-  text-align: center;
-  margin-bottom: 40px;
+  font-size: 2.5rem; /* Mengatur ukuran font */
+  text-align: center; /* Mengatur penjajaran teks ke tengah */
+  margin-bottom: 40px; /* Mengatur margin bawah */
 }
 
 .highlight-card {
-  background-color: #fff;
-  border-radius: 8px;
-  overflow: hidden;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  transition: transform 0.3s ease;
+  background-color: #fff; /* Memberi warna latar belakang */
+  border-radius: 8px; /* Memberi border radius */
+  overflow: hidden; /* Mengatur overflow menjadi tersembunyi */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Memberi efek bayangan */
+  transition: transform 0.3s ease; /* Memberi efek transisi */
 }
 
 .highlight-card:hover {
-  transform: translateY(-5px);
+  transform: translateY(-5px); /* Memberi efek transisi pada hover */
 }
 
 .highlight-card img {
-  width: 100%;
-  border-radius: 8px 8px 0 0;
+  width: 100%; /* Mengatur lebar gambar menjadi 100% */
+  border-radius: 8px 8px 0 0; /* Memberi border radius */
 }
 
 .highlight-info {
-  padding: 20px;
+  padding: 20px; /* Mengatur padding */
 }
 
 .highlight-info h3 {
-  font-size: 1.8rem;
-  margin-bottom: 10px;
+  font-size: 1.8rem; /* Mengatur ukuran font */
+  margin-bottom: 10px; /* Mengatur margin bawah */
 }
 
 .highlight-info p {
-  font-size: 1.1rem;
-  color: #555;
+  font-size: 1.1rem; /* Mengatur ukuran font */
+  color: #555; /* Mengatur warna teks */
 }
 
 .call-to-action {
-  background: #333;
-  color: #fff;
-  padding: 80px 0;
-  text-align: center;
+  background: #333; /* Memberi warna latar belakang */
+  color: #fff; /* Mengatur warna teks */
+  padding: 80px 0; /* Mengatur padding atas dan bawah */
+  text-align: center; /* Mengatur penjajaran teks ke tengah */
 }
 
 .call-to-action h2 {
-  font-size: 2.5rem;
-  margin-bottom: 20px;
+  font-size: 2.5rem; /* Mengatur ukuran font */
+  margin-bottom: 20px; /* Mengatur margin bawah */
 }
 
 .call-to-action p {
-  font-size: 1.2rem;
-  margin-bottom: 40px;
+  font-size: 1.2rem; /* Mengatur ukuran font */
+  margin-bottom: 40px; /* Mengatur margin bawah */
 }
 
 .call-to-action button {
-  padding: 15px 30px;
-  font-size: 1.2rem;
-  background: #ffffff;
-  border: none;
-  border-radius: 30px;
-  cursor: pointer;
-  transition: background 0.3s ease;
+  padding: 15px 30px; /* Mengatur padding */
+  font-size: 1.2rem; /* Mengatur ukuran font */
+  background: #ffffff; /* Memberi warna latar belakang */
+  border: none; /* Menghapus border */
+  border-radius: 30px; /* Memberi border radius */
+  cursor: pointer; /* Mengubah kursor menjadi pointer */
+  transition: background 0.3s ease; /* Memberi efek transisi */
 }
 
 .call-to-action button:hover {
-  background: #a39b96;
+  background: #a39b96; /* Memberi warna latar belakang pada hover */
 }
